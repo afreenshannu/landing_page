@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PORTFOLIO</title>
-    <style>
-        h1{
-            color: white;
-            text-align: center;
-         
-            
-        }
-        body{
-            color: #555879;
-            background-image: url(./bg1.jpg);
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY PORTFOLIO</title>
+  <style>
+    body {
+      color: #555879;
+      background-image: url(./bg1.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
 
-        }
-        .button-style{
-            background-color: #DED3C4;
-        }
-        a{
-            color: rgb(13, 13, 14);
-        }
-        button:hover{
- background-color: #A4CCD9;
-}
-    </style>
+    h1 {
+      color: white;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .button-style {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      background-color: #DED3C4;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      background-color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #A4CCD9;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(13, 13, 14);
+    }
+  </style>
 </head>
 <body>
-    <h1>
-        Welcome to my HTML project page
-        <section class="button-style">
-            <button><a href="./portfolio.html"> View My PORTFOLIO</a></button>
-            <button><a href="./registerform.html">View My Projects</a></button>
-        </section>
-    </h1>
+
+  <h1>MY Projects</h1>
+
+  <section class="button-style">
+    <button><a href="./portfolio.html">View My PORTFOLIO</a></button>
+    <button><a href="./MY_Projects.html">View My Projects</a></button>
+  </section>
+
 </body>
 </html>

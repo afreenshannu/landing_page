@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1B3C53, #456882);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      color: aliceblue;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .button-style {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .button-style button,
+    .back {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-weight: bold;
+    }
+
+    .button-style button:hover,
+    .back:hover {
+      background: linear-gradient(to right, blue, skyblue);
+    }
+
+    .button-style a,
+    .back a {
+      text-decoration: none;
+      color: #1B3C53;
+    }
+
+    .back {
+      margin-top: 30px;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome to my HTML project page</h1>
+
+  <div class="button-style">
+    <button><a href="./calculator.html">Calculator</a></button>
+    <button><a href="./registerform.html">Registerform</a></button>
+    <button><a href="./signup.html">Sign up </a></button>
+    <button><a href="./to_do_list.html">TO-DO-LIST</a></button>
+  </div>
+
+  <button class="back"><a href="./landing.html">GO BACK</a></button>
+
+</body>
+
+</html>
